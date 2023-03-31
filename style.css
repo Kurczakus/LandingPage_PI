@@ -1,12 +1,12 @@
 body {
     display: flex;
     flex-direction: column;
-    padding-left: 320px;
-    padding-right: 320px;
-    margin: 0;
+    width: 1273px;
+    margin:auto;
+    
 }
 
-.header, .SNP_container, .RI_container, .quote, .CTA_main.container, 
+.header, .SNP_container, .RI_container, .quote, .CTA_main_container, 
 .CTA_Sign_up_container, .footer {
     padding-left: 190px;
     padding-right: 190px;
@@ -38,7 +38,7 @@ body {
 .SNP_container {
     display: flex;
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 120px;
     flex-shrink:auto;
 }
 .sign_up_container {
@@ -74,6 +74,36 @@ button {
     border-radius: 8px;
     border:0px;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 15px;  
+}
+
+.RI_container, .RI_IMG_container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RI_container {
+    flex-direction: column;
     
+    margin:0px;
+}
+.RI_IMG_container {
+    display:flex;
+}
+
+.RI_Title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:bolder;
+    padding: 30px;
+}
+
+.Frame {
+    display:flex;
+    height: 80px;
+    width: 80px;
+    background-color:#3882F6;
+    border-radius: 5px;
+    justify-content: space-around;
 }

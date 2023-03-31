@@ -1,13 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 320px;
+    padding-right: 320px;
+    margin: 0;
 }
 
-.header, .SNP_container, .RI_container, .quote, .CTA_main.container, .CTA_Sign_up_container, .footer {
-    padding-left: 250px;
-    padding-right: 250px;
+.header, .SNP_container, .RI_container, .quote, .CTA_main.container, 
+.CTA_Sign_up_container, .footer {
+    padding-left: 190px;
+    padding-right: 190px;
 }
 
 .header, .SNP_container {
@@ -30,13 +32,17 @@ body {
     justify-content: end;
     list-style-type: none;
     gap:20px;
+    color: #E5E7EB;
 }
 
 .SNP_container {
     display: flex;
-    flex:1;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    flex-shrink:auto;
+}
+.sign_up_container {
+    flex-basis: 100%;
 }
 
 .Main_title {
@@ -47,8 +53,27 @@ body {
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
+    padding-right:35px;
 }
 
 .picture_container {
-    background: gray;
+    background: #708090;
+    display:flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 7px;
+    padding-left:25px;
+    padding-right:25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border:0px;
+    margin-top: 10px;
+    font-size: 15px;
+    
 }

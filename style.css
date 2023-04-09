@@ -107,11 +107,13 @@ button {
 
 .quote_container {
     background-color: #E5E7EB;
-    padding: 50px;
+    padding: 100px;
     padding-left: 280px;
     padding-right: 250px;  
 }
-
+p {
+    margin:0px;
+}
 .Quote {
     font-size: 36px;
     font-style: italic;
@@ -119,7 +121,7 @@ button {
 }
 
 .description {
-    font-size: 19px;
+    font-size: 22px;
     text-align:end;
     font-weight: bolder;
 }
@@ -155,7 +157,7 @@ button {
 }
 
 .C1 {
-  font-size: 19px;
+  font-size: 22px;
   font-weight: bold;
   
 }

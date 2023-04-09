@@ -12,7 +12,7 @@ body {
     padding-right: 190px;
 }
 
-.header, .SNP_container {
+.header, .SNP_container, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -113,4 +113,11 @@ button {
 p {
     font-style: italic;
     font-size: 36px;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
 }

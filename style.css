@@ -67,11 +67,11 @@ body {
 button {
     background-color: #3882F6;
     padding: 7px;
-    padding-left:25px;
-    padding-right:25px;
+    padding-left:28px;
+    padding-right:28px;
     color: white;
     font-weight: bold;
-    border-radius: 8px;
+    border-radius: 6px;
     border:0px;
     margin-top: 10px;
     font-size: 15px;  
@@ -119,9 +119,48 @@ p {
     font-weight:20;
 }
 
+.CTA_container {
+  display: flex;
+  padding: 85px;
+  justify-content: center;
+  align-items: center;
+}
+
+.CTA_description {
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left:120px;
+  padding-right:120px;
+  gap: 140px;
+  background-color:#3882F6;
+}
+
+.CTA_1, .CTA_2 {
+  display: flex;
+  justify-content: center;
+  color: white
+}
+
+.CTA_1 {
+  flex-direction: column;
+}
+
+.C1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.B2 {
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 3px;
+}
 .footer {
     display: flex;
-    height: 100px;
+    height: 90px;
     align-items: center;
     justify-content: center;
 }

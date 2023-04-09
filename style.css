@@ -108,15 +108,20 @@ button {
 .quote_container {
     background-color: #E5E7EB;
     padding: 50px;
-    padding-left: 300px;
+    padding-left: 280px;
     padding-right: 250px;  
 }
 
-p {
-    font-style: italic;
+.Quote {
     font-size: 36px;
+    font-style: italic;
     color:#1F2937;
-    font-weight:20;
+}
+
+.description {
+    font-size: 19px;
+    text-align:end;
+    font-weight: bolder;
 }
 
 .CTA_container {
@@ -132,8 +137,8 @@ p {
   border-radius: 8px;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left:120px;
-  padding-right:120px;
+  padding-left:130px;
+  padding-right:130px;
   gap: 140px;
   background-color:#3882F6;
 }
@@ -141,7 +146,8 @@ p {
 .CTA_1, .CTA_2 {
   display: flex;
   justify-content: center;
-  color: white
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .CTA_1 {
@@ -149,8 +155,9 @@ p {
 }
 
 .C1 {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: bold;
+  
 }
 
 .B2 {

@@ -39,7 +39,6 @@ body {
     display: flex;
     padding-top: 90px;
     padding-bottom: 120px;
-    flex-shrink:auto;
 }
 .sign_up_container {
     flex-basis: 100%;
@@ -113,6 +112,10 @@ button {
     gap: 10px;
 }
 
+.text {
+    width: 150px;
+    overflow-wrap: break-word;
+}
 .quote_container {
     background-color: #E5E7EB;
     padding: 100px;

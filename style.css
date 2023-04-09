@@ -89,12 +89,12 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-weight:bolder;
-    padding: 30px;
+    padding: 40px;
 }
 
 .RI_IMG_container {
     display:flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .Frame {
@@ -108,11 +108,15 @@ button {
 .quote_container {
     background-color: #E5E7EB;
     padding: 50px;
+    padding-left: 300px;
+    padding-right: 250px;  
 }
 
 p {
     font-style: italic;
     font-size: 36px;
+    color:#1F2937;
+    font-weight:20;
 }
 
 .footer {

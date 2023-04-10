@@ -94,6 +94,9 @@ button {
 .RI_IMG_container {
     display:flex;
     margin-bottom: 150px;
+    width: 100%;
+    justify-content:space-around;
+    text-align: center;
 }
 
 .Frame {
